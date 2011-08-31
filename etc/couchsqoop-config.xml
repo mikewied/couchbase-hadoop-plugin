@@ -1,0 +1,19 @@
+<!--
+   Author Couchbase <info@couchbase.com>
+   Copyright 2011 Couchbase, Inc.
+   All rights reserved.
+ -->
+
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+  <property>
+    <name>sqoop.connection.factories</name>
+    <value>com.couchbase.sqoop.manager.CouchbaseFactory</value>
+    <description>A comma-delimited list of ManagerFactory implementations
+      which are consulted, in order, to instantiate ConnManager instances
+      used to drive connections to databases.
+    </description>
+  </property>
+</configuration>
